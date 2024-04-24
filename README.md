@@ -22,3 +22,12 @@
 之后使用 startall 来全部开始，开始后本程序可以关闭
 
 可以使用replaceline、replaceline2D、insert_line 以及changevalue_all来改变全体 inlist 的值
+
+我认为最常用的函数为：
+makemesadir、mkmesadir2D、replaceline2D
+
+
+
+最后：
+大家对 master 代码进行自己的更新是非常简单的，只需要直接定义函数就会有函数的区域和执行函数的按钮生成在 GUI 界面中
+
