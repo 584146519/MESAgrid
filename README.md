@@ -24,7 +24,7 @@
 可以使用replaceline、replaceline2D、insert_line 以及changevalue_all来改变全体 inlist 的值
 
 我认为最常用的函数为：
-makemesadir、mkmesadir2D、replaceline2D
+AAAAAAA_initialize_variables、makemesadir、mkmesadir2D、replaceline2D、startall、startnumber、stopall、gethistorydata
 
 
 
