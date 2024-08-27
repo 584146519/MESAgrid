@@ -3,7 +3,9 @@ MESA 网格可视化程序
 
 准备操作如下：
 step0 确保安装所有的 import 的包,全部可以使用pip安装
+
 step1 把网格初始的模型文件全部放进 mesabasic 的文件夹中（换句话说把初始模型的文件夹名称改为 mesabasic）
+
 step2 在 mesabasic 的上级文件夹内运行该程序
 
 
