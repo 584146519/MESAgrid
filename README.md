@@ -3,7 +3,7 @@ MESA 网格可视化程序
 40版本增加了图形化检测，对于不能调用图形化的系统将会允许使用命令行来执行本程序
 
 准备操作如下：
-step0 确保安装所有的 import 的包,全部可以使用pip安装
+step0 确保安装所有的 import 的包,全部可以使用pip安装，除了 GUI 的 tkinter（
 
 step1 把网格初始的模型文件全部放进 mesabasic 的文件夹中（换句话说把初始模型的文件夹名称改为 mesabasic）
 
@@ -15,12 +15,12 @@ step2 在 mesabasic 的上级文件夹内运行该程序
 正式使用步骤如下：
 
 一维网格:
-如果只调整一个参数，使用 grid1D 创建网格，会在 mesabaisc 文件夹旁边生成 mesagrid 文件夹里面放网格模型
+如果只调整一个参数，使用 grid1D 创建网格，程序会在 mesabaisc 文件夹旁边生成 mesagrid 文件夹里面放网格模型
 ，之后使用 startall 来全部开始，开始后本程序可以关闭
 
 二维网格:
 使用 grid2D 创建网格
-对于需要改变的变量超过二个但是具有相关性的变量（本质还是二维网格），使用replaceline2D
+对于需要改变的变量超过二个但是具有相关性的变量（本质还是二维网格），使用replaceline2D更改 inlist
 
 开始：
 之后使用 startall 来全部开始，开始后本程序可以关闭
@@ -29,8 +29,5 @@ step2 在 mesabasic 的上级文件夹内运行该程序
 我认为最常用的函数为：
 AAAAAAA_initialize_variables、makemesadir、mkmesadir2D、replaceline2D、startall、startnumber、stopall、gethistorydata
 
-
-
 最后：
-大家对 master 代码进行自己的更新是非常简单的，只需要直接定义函数就会有函数的区域和执行函数的按钮生成在 GUI 界面中
-
+大家对 master 代码进行自己的更新是非常简单的，只需要直接定义函数就会有函数的区域和执行函数的按钮生成在 GUI 或者命令行中
