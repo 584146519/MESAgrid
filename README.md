@@ -1,6 +1,40 @@
+MESA Grid GUI Program
+
+The program files are named using a convention of numbers (major versions) + letters (minor versions). For example, version 36 is newer than version 35, and version 36c is newer than version 36b. You only need to download the latest version of a single .py file.
+
+Version 40 adds command-line execution.
+
+Preparation steps:
+
+Step 0: Ensure that all imported packages are installed; all can be installed using pip, except for the GUI package tkinter.
+
+Step 1: Place all the initial model files of the grid into the mesabasic folder (in other words, rename the mother-folder containing the initial model files to mesabasic).
+
+Step 2: Run this program in the parent directory of the mesabasic folder.
+
+Steps for use:
+
+One-dimensional Grid:
+If only one parameter is adjusted, use grid1D to create the grid. The program will generate a mesagrid folder next to the mesabasic folder, which will contain the grid models. Afterward, use startall to start everything. Once started, the program can be closed.
+
+Two-dimensional Grid:
+Use grid2D to create the grid. For variables that exceed two but are related (essentially still a two-dimensional grid), use replaceline2D to modify the inlist.
+
+To Start:
+Afterward, use startall to start everything. Once started, the program can be closed.
+
+You can use replaceline, replaceline2D, insert_line, and changevalue_all to change the values of all inlist.
+
+The functions I find most commonly used are:
+AAAAAAA_initialize_variables, makemesadir, mkmesadir2D, replaceline2D, startall, startnumber, stopall, and gethistorydata.
+
+Finally:
+It’s very simple for everyone to update the master code on their own. You only need to define a function directly, and the function’s area and execution button will be generated in the GUI or command line.
+
+
 MESA 网格可视化程序 
 程序文件命名规则是数字（大版本）+字母（小版本），例如 36 比 35 版本新，36c 比 36b 版本新，只下载最新版单个 py 文件即可
-40版本增加了图形化检测，对于不能调用图形化的系统将会允许使用命令行来执行本程序
+40版本增加允许使用命令行来执行本程序
 
 准备操作如下：
 step0 确保安装所有的 import 的包,全部可以使用pip安装，除了 GUI 的 tkinter（
