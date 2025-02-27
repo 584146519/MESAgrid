@@ -1,5 +1,7 @@
 MESA Grid GUI Program
 
+English instruction ：
+
 The program files are named using a convention of numbers (major versions) + letters (minor versions). For example, version 36 is newer than version 35, and version 36c is newer than version 36b. You only need to download the latest version of a single .py file.
 
 Version 40 allow command-line execution.
@@ -11,7 +13,7 @@ Step 0: Ensure that all imported packages are installed; all can be installed us
 
 Step 1: Place all the initial model files of the grid into the mesabasic folder (in other words, rename the mother-folder containing the initial model files to mesabasic).
 
-Step 2: Run this program in the parent directory of the mesabasic folder.
+Step 2: Run this program in the parent directory of the mesabasic folder.Enter the name of the inlist you want to change into the first function and click the run button
 
 Steps for use:
 
@@ -32,17 +34,20 @@ AAAAAAA_initialize_variables, makemesadir, mkmesadir2D, replaceline2D, startall,
 Finally:
 It’s very simple for everyone to update the master code on their own. You only need to define a function directly, and the function’s area and execution button will be generated in the GUI or command line.
 
+中文说明
 
 MESA 网格可视化程序 
 程序文件命名规则是数字（大版本）+字母（小版本），例如 36 比 35 版本新，36c 比 36b 版本新，只下载最新版单个 py 文件即可
 40版本增加允许使用命令行来执行本程序
 43版本创建网格可以用科学计数法（比如3d-5）
+
 准备操作如下：
+
 step0 确保安装所有的 import 的包,全部可以使用pip安装
 
 step1 把网格初始的模型文件全部放进 mesabasic 的文件夹中（换句话说把初始模型的文件夹名称改为 mesabasic）
 
-step2 在 mesabasic 的上级文件夹内运行该程序
+step2 在 mesabasic 的上级文件夹内运行该程序，把需要改的inlist的名字输入到第一个函数中并点击run按钮
 
 
 
@@ -65,7 +70,10 @@ step2 在 mesabasic 的上级文件夹内运行该程序
 AAAAAAA_initialize_variables、makemesadir、mkmesadir2D、replaceline2D、startall、startnumber、stopall、gethistorydata
 
 <img width="344" alt="image" src="https://github.com/user-attachments/assets/ec1559df-24c4-488f-97fa-69bcea104f07" />
-![image](https://github.com/user-attachments/assets/0b8cb617-3837-447f-8259-cda2be5147b8)
+
+![image](https://github.com/user-attachments/assets/0ea34491-6f9e-43cf-81b8-b7a886b74af4)
+
+
 ![截屏2025-02-27 11 49 43](https://github.com/user-attachments/assets/0c8201ac-d63c-4a0c-a62e-74d4be062a53)
 
 最后：
